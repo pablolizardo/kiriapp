@@ -5,6 +5,10 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
+    <icon density="ldpi" src="www/images/icons/icon-76x76.png" />
+    <icon density="mdpi" src="www/images/icons/icon-144x144.png" />
+    <icon density="hdpi" src="www/images/icons/icon-196x196.png" />
+    <icon density="xhdpi" src="www/images/icons/icon-512x512.png" />
     <name>Kiribati</name>
     <description>
         La aplicacion oficial de la Kiribati Una Vieja Aventura. Estreno Junio 2015

@@ -10,4 +10,39 @@
     <content src="index.html" />
     <access origin="*" />
 	<preference name="Fullscreen" value="true" />
+
+    <!-- icons  -->
+    <platform name="android">
+        <icon src="www/images/icons/icon-76x76.png" density="ldpi" />
+        <icon src="www/images/icons/icon-144x144.png" density="mdpi" />
+        <icon src="www/images/icons/icon-196x196.png" density="hdpi" />
+        <icon src="www/images/icons/icon-512x512.png" density="xhdpi" />
+    </platform>
+    <platform name="ios">
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="www/images/icons/icon-120x120.png" width="120" height="120" />
+        <icon src="www/images/icons/icon-120@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="www/images/icons/icon-76.x76png" width="76" height="76" />
+        <icon src="www/images/icons/icon-76@2x.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon -->
+        <icon src="www/images/icons/icon-144x144.png" width="144" height="144" />
+        <icon src="www/images/icons/icon-144@2x.png" width="80" height="80" />
+        <!-- iPhone / iPod Touch -->
+        <icon src="www/images/icons/icon.png" width="512" height="512" />
+        <icon src="www/images/icons/icon@2x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="www/images/icons/icon-72x72.png" width="72" height="72" />
+        <icon src="www/images/icons/icon-72@2x.png" width="144" height="144" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="www/images/icons/icon-57x57.png" width="57" height="57" />
+        <icon src="www/images/icons/icon-57@2x.png" width="57" height="57" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="www/images/icons/icon-512x512.png" width="512" height="512" />
+        <icon src="www/images/icons/icon-512@2x.png" width="512" height="512" />
+    </platform>
+
+
 </widget>
